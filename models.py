@@ -10,4 +10,3 @@ class Todos(Base):
     description = Column(String)
     priority = Column(Integer)
     complete = Column(Boolean, default=False)
-    second_id = Column(Boolean, default=False)
